@@ -1,3 +1,13 @@
 body {
   background-color: lightyellow;
 }
+.red-box {
+  width:100px;
+  height:200px;
+  background-color: red;
+}
+.blue-box {
+  width: 400px;
+  height: 200px;
+  background-color: #00D1AE;
+}
