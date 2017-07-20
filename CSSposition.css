@@ -1,15 +1,16 @@
-.box {
-  border: 2px solid;
+body {
   font-family: Arial;
   font-size: 15px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: #00D1AE;
+  color: #111;
+  border: 3px solid #00D1AE;
+  font-weight: bold;
+  padding: 10px;
   width: 500px;
-}
-.not-relative {
-  border-color: #00D1AE;
-}
-.relative {
-  position: relative;
-  border-color: #3B3BFF;
-  left: 10px;
-  top: 10px;
 }
